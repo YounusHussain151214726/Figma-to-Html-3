@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+}
+
+header {
+  background-image: url(/Images/headerBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 1rem;
+}
+header nav ul li a {
+  width: 4.438rem;
+  height: 1.313rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.313rem;
+  color: #c9c9c9;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header nav button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background: #3dd47e;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  /* identical to box height, or 106% */
+  letter-spacing: 0.01rem;
+  color: #0d0d0d;
+}
+header .hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .hero-section .left-section h1 {
+  width: 31.375rem;
+  height: 8.875rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  color: #ffffff;
+}
+header .hero-section .left-section p {
+  width: 29.25rem;
+  height: 5rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  /* or 156% */
+  /* Secondary Grey */
+  color: #c9c9c9;
+}
+header .hero-section .left-section button {
+  width: 9.188rem;
+  height: 2.938rem;
+  background: #3dd47e;
+  border-radius: 3rem;
+  margin-top: 3rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.48px;
+  color: #0d0d0d;
+}
+
+main {
+  margin: 2rem 0 2rem 0;
+}
+main .heading :first-child {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+  margin: 0 0 0 5rem;
+  padding: 0 1rem 0 0;
+}
+main .heading span {
+  color: #c9c9c9;
+}
+main .heading :last-child {
+  padding: 0 0 0 1rem;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #c9c9c9;
+  opacity: 0.5;
+}
+main .brand-section {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .brand-section > * {
+  width: 11.375rem;
+  height: 4.25rem;
+  background: #181818;
+  text-align: center;
+}
+main .brand-section > * img {
+  margin: 1.5rem 0 0 0.9rem;
+}
+main .service-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Images/servicebackground.png);
+  background-position: right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin: 10rem 0 0 0;
+}
+main .service-section .service-section-top {
+  height: auto;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .service-section .service-section-top > * {
+  width: 19.375rem;
+  height: 12.25rem;
+  background: #181818;
+  text-align: left;
+  margin: 0 3rem 0 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+main .service-section .service-section-top > * h6 {
+  width: 14rem;
+  height: 3.5rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin: 0.5rem 0 0 0.5rem;
+  color: #c9c9c9;
+}
+main .service-section .service-section-top > * img {
+  margin: 1.5rem 0 0 0.9rem;
+}
+main .service-section .service-section-top > *:last-child {
+  width: 35rem;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: unset;
+}
+main .service-section .service-section-top > *:last-child h3 {
+  width: 23rem;
+  height: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+main .service-section .service-section-top > *:last-child p {
+  width: 32rem;
+  height: 4rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #c9c9c9;
+  margin: 1rem 0 0 0;
+}
+main .service-section .service-section-bottom {
+  height: auto;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .service-section .service-section-bottom > * {
+  width: 19.375rem;
+  height: 11.25rem;
+  background: #181818;
+  text-align: left;
+  display: inline-block;
+  margin: 0 0 0 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+main .service-section .service-section-bottom > * h6 {
+  width: 14rem;
+  height: 3.5rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin: 0.5rem 0 0 0.5rem;
+  color: #c9c9c9;
+}
+main .service-section .service-section-bottom > * img {
+  margin: 1.5rem 0 0 0.9rem;
+}
+main .choose-zebra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0 0 0;
+  padding: 2rem 2rem;
+  background-image: url(../Images/choosezebrabackground.png);
+  background-repeat: no-repeat;
+  background-position-x: 12%;
+  background-position-y: 20%;
+}
+main .choose-zebra > * {
+  width: 50%;
+  position: relative;
+}
+main .choose-zebra .left img {
+  display: block;
+  padding: 2rem 2rem;
+}
+main .choose-zebra .left .customers {
+  position: absolute;
+  top: 6rem;
+  left: 32rem;
+}
+main .choose-zebra .left .customers h6 {
+  width: 14rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin: 0.5rem 0 0 0.5rem;
+  color: #c9c9c9;
+  position: relative;
+  left: 2.2rem;
+  top: 1.5rem;
+}
+main .choose-zebra .right {
+  padding: 2rem 2rem;
+}
+main .choose-zebra .right h3 {
+  width: 18.188rem;
+  height: 6rem;
+  font-family: "Creato Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+main .choose-zebra .right p {
+  width: 29.25rem;
+  height: 5rem;
+  margin: 1rem 0 1rem 0;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #c9c9c9;
+}
+main .choose-zebra .right .btn button {
+  width: 9.188rem;
+  height: 2.938rem;
+  background: #3dd47e;
+  border-radius: 3rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: #0d0d0d;
+}
+main .latest-work {
+  padding: 2rem 2rem;
+}
+main .latest-work h6 {
+  width: 22.688rem;
+  height: 3rem;
+  font-family: "Creato Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0 0 0 6rem;
+  color: #ffffff;
+}
+main .latest-work .work {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .latest-work .work > * {
+  padding: 2rem 2rem;
+}
+main .latest-work .work > * h4 {
+  width: 17.875rem;
+  height: 3.5rem;
+  font-family: "Creato Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.563rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+  margin: 1rem 0 0 0;
+}
+main .latest-work .work > * p {
+  width: 23.375rem;
+  height: 3.313rem;
+  margin: 1rem 0 0 0;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #c9c9c9;
+}
+main .testimonial {
+  background: #131313;
+  padding: 4rem 4rem;
+}
+main .testimonial h6 {
+  width: 22.688rem;
+  height: 3rem;
+  font-family: "Creato Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0 0 0 6rem;
+  color: #ffffff;
+}
+main .testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .testimonials > * {
+  width: 28.75rem;
+  background: #0d0d0d;
+  height: auto;
+  margin: 4rem 0 0 0;
+  padding: 2rem 2rem;
+  border-radius: 0.75rem;
+}
+main .testimonials > * p {
+  margin: 1rem 0 0 1.2rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #c9c9c9;
+  width: 25rem;
+}
+main .testimonials > * .profile {
+  margin: 0 0 0 1rem;
+  display: flex;
+}
+main .testimonials > * .profile img {
+  width: 4rem;
+}
+main .testimonials > * .profile .profile-content {
+  margin: 0.7rem 0 0 1rem;
+}
+main .testimonials > * .profile .profile-content h5 {
+  width: 81px;
+  height: 19px;
+  font-family: "Creato Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  /* Primary White */
+  color: #ffffff;
+}
+main .testimonials > * .profile .profile-content h6 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  /* identical to box height, or 215% */
+  margin: 0;
+  /* Secondary Grey */
+}
+main .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .contact .left {
+  padding: 4rem 4rem;
+  width: 50%;
+}
+main .contact .left h1 {
+  width: 31.375rem;
+  height: 8.875rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  color: #ffffff;
+}
+main .contact .left p {
+  width: 29.25rem;
+  height: 5rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  /* or 156% */
+  /* Secondary Grey */
+  color: #c9c9c9;
+}
+main .contact .left .contactus span,
+main .contact .left .contactus h6 {
+  color: white;
+  display: inline-block;
+  padding: 2rem 2rem;
+  font-size: 1.2rem;
+}
+main .contact .left .contactus h6 {
+  padding: 2rem 0rem;
+}
+main .contact .left .contactus button {
+  width: 9.188rem;
+  height: 2.938rem;
+  background: #3dd47e;
+  border-radius: 3rem;
+  margin-top: 3rem;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.48px;
+  color: #0d0d0d;
+}
+main .contact .right {
+  width: 50%;
+  background-image: url(../Images/footerbackground.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: -1rem;
+  background-position-x: 13rem;
+}
+main .contact .right img {
+  padding: 1rem 0rem;
+  display: block;
+  margin: 0 0 0 17rem;
+}/*# sourceMappingURL=Main.css.map */
