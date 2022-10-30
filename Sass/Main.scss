@@ -542,3 +542,24 @@ main {
     }
   }
 }
+
+@media  only screen and (min-width:1200px) and (max-width:1550px) {
+  main{
+    .testimonial{
+      padding: 1rem 0 2rem 0;
+    }
+    
+    .testimonials{
+
+      & > *{
+        width: 24rem;
+      }
+
+      & > * p{
+        width: 16rem;
+      }
+    }
+
+  }
+
+}

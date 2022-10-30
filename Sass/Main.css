@@ -482,4 +482,16 @@ main .contact .right img {
   padding: 1rem 0rem;
   display: block;
   margin: 0 0 0 17rem;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1550px) {
+  main .testimonial {
+    padding: 1rem 0 2rem 0;
+  }
+  main .testimonials > * {
+    width: 24rem;
+  }
+  main .testimonials > * p {
+    width: 16rem;
+  }
 }/*# sourceMappingURL=Main.css.map */
